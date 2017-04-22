@@ -1,0 +1,35 @@
+.table {
+  display: inline-block;
+  min-width: 350px;
+}
+
+.thead, .tbody, .orders {
+  display: flex;
+}
+
+.thead {
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+
+.thead > div,
+.tbody > div,
+.tbody > a {
+  padding: 10px;
+}
+
+.thead > div:first-child,
+.tbody > div:first-child {
+  width: 100px;
+  border-right: 1px solid #000;
+}
+
+.thead > div:nth-child(2),
+.tbody > div:nth-child(2) {
+  width: 200px;
+  border-right: 1px solid #000;
+}
+
+.orders > div:first-child {
+  margin-right: 15px;
+}
